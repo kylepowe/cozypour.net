@@ -1,1 +1,1 @@
-# kylepowe/cozpour.net
+# cozpour.net
