@@ -3,7 +3,66 @@
     <head>
         <title>CozyPour</title>
         <style>
-            
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
         </style>
     </head>
     
@@ -17,19 +76,18 @@
                     <li class= "nav-li"><a href="portfolio.html"></a></li>
                 </ul>
             </nav>
-
             <main>
                 <!-- Sidebar section -->
-                <div>
-                    <img>
+                <div class = "content">
+                    <img class= "sidebar-img" src ="images/Screenshot 2023-12-06 2.22.37 PM.png">
                 </div>
 
                 <!-- Content section -->
-                <div>
+                <div class = "content">
                     <h2>CozyPour</h2>
                     <p>Your safe place in an unsafe world!</p>
                     <!-- Products section -->
-                    <div>
+                    <div id = "products">
                         <h3>Products</h3>
                         <ul>
                             <li>Top Tunes</li>
